@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon ./app localhost 3000"
+    "dev": "nodemon ./app localhost 3000",
+    "test": "NODE_ENV=test jest"
   },
   "dependencies": {
     "crossword-layout-generator": "^0.1.1",
@@ -14,6 +15,7 @@
     "morgan": "~1.9.1"
   },
   "devDependencies": {
+    "jest": "^27.0.6",
     "nodemon": "^2.0.7"
   }
 }
